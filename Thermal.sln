@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.3
+Project("{FD48973F-F585-4F70-812B-4D0503B36CE9}") = "Thermal", "Thermal\Thermal.pyproj", "{3D7A699E-AF19-4B4D-87A5-61A06BC3EDB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D7A699E-AF19-4B4D-87A5-61A06BC3EDB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D7A699E-AF19-4B4D-87A5-61A06BC3EDB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D7A699E-AF19-4B4D-87A5-61A06BC3EDB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D7A699E-AF19-4B4D-87A5-61A06BC3EDB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal

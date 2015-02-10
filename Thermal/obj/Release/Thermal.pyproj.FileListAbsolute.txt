@@ -1,0 +1,7 @@
+K:\Chris\Other_Code\Python\Thermal\Thermal\bin\Release\Thermal.exe.config
+K:\Chris\Other_Code\Python\Thermal\Thermal\bin\Release\Thermal.exe
+K:\Chris\Other_Code\Python\Thermal\Thermal\bin\Release\Thermal.dll
+K:\Chris\Other_Code\Python\Thermal\Thermal\bin\Release\IronPython.dll
+K:\Chris\Other_Code\Python\Thermal\Thermal\bin\Release\IronPython.Modules.dll
+K:\Chris\Other_Code\Python\Thermal\Thermal\obj\Release\Thermal.exe
+K:\Chris\Other_Code\Python\Thermal\Thermal\obj\Release\Thermal.pyprojResolveAssemblyReference.cache
