@@ -65,24 +65,36 @@ while ExitCommand != 1:
 						print time.strftime("%a,%H:%M") + ",Heating,On"
 						#Trip the Heating is currently on trip
 						Heating_is_already_on = [True, on_off_array [row][3]]
+						with open("Logfile.csv", 'a') as f:
+							f.write(str(datetime.datetime.now()) + ",Heating,On" + "\n")
+						#f.close()
 						
 					elif on_off_array[row][0] == "Water" and Water_is_already_on[0] != True:
 						#Turn the Water on
 						print time.strftime("%a,%H:%M") + ",Water,On"
 						#Trip the water is already on trip
 						Water_is_already_on = [True, on_off_array [row][3]]
-				
+						with open("Logfile.csv", 'a') as f:
+							f.write(str(datetime.datetime.now()) + ",Water,On" + "\n") 
+						#f.close()
+						
 				# if the time is greater than the finish time and the line item is water and the water is already on, then turn it off
 				#The triple check ensures that it is not turned off by the second/third/fourth... cycle of the day
 				elif int(time.strftime("%H%M")) > int(Water_is_already_on[1]) and Water_is_already_on[0] == True:
 					Water_is_already_on = [False, "0000"]							
 					print time.strftime("%a,%H:%M") + ",Water,Off"
+					with open("Logfile.csv", 'a') as f:
+						f.write(str(datetime.datetime.now()) + ",Water,Off" + "\n")
+					#f.close()
 					
 				# if the time is greater than the finish time and the line item is Heat and the Heating is already on, then turn it off	
 				#The triple check ensures that it is not turned off by the second/third/fourth... cycle of the day
 				elif int(time.strftime("%H%M")) > int(Heating_is_already_on[1]) and Heating_is_already_on[0] == True:	
 					Heating_is_already_on = [False, "0000"]
 					print time.strftime("%a,%H:%M") + ",Heating,Off"
+					with open("Logfile.csv", 'a') as f:
+						f.write(str(datetime.datetime.now()) + ",Heating,Off" + "\n")
+					#f.close()
 					
 
 
