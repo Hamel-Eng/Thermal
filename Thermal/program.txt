@@ -8,8 +8,8 @@ Heat,Tue,1146,1200
 Water,Tue,1227,1429
 Water,Wed,1045,1050
 Heat,Wed,1047,1055
-Heat,Wed,1300,1430
-Water,Wed,1610,1730
+Heat,Wed,1450,1458
+Water,Wed,1448,1452
 Water,Thu,0700,0800
 Heat,Thu,0600,0730
 Heat,Thu,1700,1930

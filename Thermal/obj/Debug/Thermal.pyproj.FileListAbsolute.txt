@@ -5,3 +5,10 @@ K:\Chris\Other_Code\Python\Thermal\Thermal\bin\Debug\IronPython.dll
 K:\Chris\Other_Code\Python\Thermal\Thermal\bin\Debug\IronPython.Modules.dll
 K:\Chris\Other_Code\Python\Thermal\Thermal\obj\Debug\Thermal.pyprojResolveAssemblyReference.cache
 K:\Chris\Other_Code\Python\Thermal\Thermal\obj\Debug\Thermal.exe
+C:\Users\HamelC\Documents\GitHub\Thermal\Thermal\bin\Debug\Thermal.exe.config
+C:\Users\HamelC\Documents\GitHub\Thermal\Thermal\bin\Debug\Thermal.exe
+C:\Users\HamelC\Documents\GitHub\Thermal\Thermal\bin\Debug\Thermal.dll
+C:\Users\HamelC\Documents\GitHub\Thermal\Thermal\bin\Debug\IronPython.dll
+C:\Users\HamelC\Documents\GitHub\Thermal\Thermal\bin\Debug\IronPython.Modules.dll
+C:\Users\HamelC\Documents\GitHub\Thermal\Thermal\obj\Debug\Thermal.pyprojResolveAssemblyReference.cache
+C:\Users\HamelC\Documents\GitHub\Thermal\Thermal\obj\Debug\Thermal.exe
